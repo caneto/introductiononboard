@@ -7,10 +7,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("Home Page", style: TextStyle(
+        child: Text("Inicio do Seu projeto", style: TextStyle(
           fontSize: 30,
           fontWeight: FontWeight.bold,
-          color: Color(0xFF6C63FF)
+          color: Colors.lightBlue
         ),),
       ),
     );
